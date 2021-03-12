@@ -1,0 +1,239 @@
+@charset "iso-8859-1";
+/********/
+/* Body */
+/********/
+body {
+ font-family: verdana, tahoma, helvetica, arial, sans-serif;
+ font-size: 75%;
+ margin: 0px;}
+
+/**********/
+/* Header */
+/**********/
+#entete {
+ height: 8em;
+ padding: 0.25em 2.5mm 0 4mm;}
+
+#entete .titrentete {
+ font-size: 252%;
+ text-decoration: none;
+ font-weight: bold;
+ font-style: italic;
+ line-height: 3.5em;}
+
+#entete .titrentete span {
+ font-weight: normal;}
+
+#entete div#publiciteentete {
+ display: block;
+ position: absolute;
+ top: 1em;
+ right: 1em;
+ width: 500px;
+ height: 6em;
+ text-align: center;
+ vertical-align: middle;}
+
+#entete div#publiciteentete a {
+ text-decoration: none;}
+
+/************/
+/* Top menu */
+/************/
+#menuhaut {
+ text-align: center;
+ padding: 2.5ex 0;
+ height:15px;}
+
+#menuhaut select, #menuhaut option {
+ font-family: Courier;}
+
+#menuhaut form {
+ padding: 0px;
+ margin: 0px;}
+
+/*************/
+/* Left menu */
+/*************/
+#menugauche {
+ font-size: 95%;
+ width: 12.65em;
+ float: left;
+ clear: left;}
+
+#menugauche h1 {
+ font-size: 100%;
+ font-weight: bold;
+ padding: 0.75ex 1ex;
+ margin: 0px}
+
+#menugauche li {
+ font-weight: bold;
+ padding: 1ex 0.75ex 1ex 1ex;
+ list-style-type: none;}
+
+#menugauche a {
+ text-decoration: none;}
+
+#menugauche ul {
+ padding: 0px;
+ margin: 0px;}
+
+#menugauche select, #menugauche option {
+ font-family: Courier;}
+
+/************/
+/* Contents */
+/************/
+#texte {
+ text-align: justify;
+ line-height: 1.6em;
+ margin-left: 12em;
+ padding: 1em 1em 1em 1em;
+ border-left-style: dashed;
+ border-left-width: 1px;
+ clear: right;}
+
+#texte table {
+ width: 98%;
+ border: 1px solid;}
+
+#texte table th {
+ text-align: center;}
+
+#texte h1 {
+ font-size: 160%;
+ font-weight: bold;
+ font-style: italic;
+ padding-top: 1em;
+ margin-bottom: 1em;
+ border-bottom-style: solid;
+ border-bottom-width: 1px;}
+
+#texte fieldset {
+ margin: auto;
+ margin-bottom: 2em;
+ width: 75%;
+ align: center;
+ display: block;}
+
+#texte label {
+ display: block;}
+ 
+#texte select, #texte textarea, #texte input {
+ font-family: Courier;
+ font-size: 100%;}
+
+#texte textarea {
+ width: 80%;}
+
+#texte br {
+ clear: all;}
+
+#texte p.tri {
+ text-align: right;
+ font-size: 80%;
+ line-height: 1em;}
+
+#texte p.success {
+ text-align: center;
+ border: 1px dashed #008000;
+ background-color: #99ff99;}
+
+#texte p.error {
+ text-align: center;
+ border: 1px dashed #ff0000;
+ background-color: #ff9966;}
+
+#texte table.fixed {
+ table-layout: fixed;}
+
+/**********/
+/* Bottom */
+/**********/
+#basdepage {
+ font-size: 85%;
+ text-align: center;
+ line-height: 1.25em;
+ padding: 1em 4mm 1.5em 4mm;
+ clear: left;}
+
+#basdepage div {
+ padding-bottom: 1ex;}
+
+#basdepage a {
+ text-decoration: underline;
+ font-weight: bold;}
+
+#basdepage a:hover {
+ text-decoration: none;}
+
+/*****************/
+/* General class */
+/*****************/
+.smallcaps {
+ font-variant: small-caps;
+ font-weight: bold;}
+
+.center {
+ text-align: center;}
+
+.justify {
+ text-align: justify;}
+
+#texte em.green {
+ color: green;
+ font-weight: bold;}
+
+#texte em.red {
+ color: red;
+ font-weight: bold;}
+
+img {
+ border: none;
+ vertical-align: middle;}
+
+img.bar1 {
+ background-color: red;
+ border: 1px solid black;}
+
+img.bar2 {
+ background-color: blue;
+ border: 1px solid black;}
+
+.small {
+ font-size: 75%;}
+
+/**********/
+/* Colors */
+/**********/
+h1, h4, #texte a, #menugauche a, #menugauche span {
+ color: #7C7B11;}
+
+#entete .titrentete, #menugauche h1, #entete div#publiciteentete a {
+ color: #000;}
+ 
+#menuhaut a:hover, #menugauche, #menugauche a:hover, #basdepage a {
+ color: #B8B619;}
+
+#entete .titrentete span, #menuhaut {
+ color: #FFF;}
+
+body, #texte, #menuhaut a:hover {
+ background-color: #FFF;}
+
+#entete, #texte table th {
+background-color: #B8B619;}
+
+#menuhaut {
+ background-color: #000;}
+
+#menugauche h1, #basdepage, #texte table .impair, #menugauche li:hover {
+ background-color: #e6dfcf;}
+
+#texte {
+ border-color: #e6dfcf;
+ background-color: #FFF;}
+ 
+#texte table .pair {
+ background-color: #FFF0D0;}

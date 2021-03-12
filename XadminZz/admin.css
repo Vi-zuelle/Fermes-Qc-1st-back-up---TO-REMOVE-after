@@ -1,0 +1,80 @@
+/* CSS Document */
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #D7D7D7;
+	/*font-weight:600;*/
+	color: #666;
+
+}
+
+.stats
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #0033CC;
+	font-style:italic;
+	font-weight:bold;
+	text-align:left;
+	}
+	
+.stats2
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #0033CC;
+	font-style:italic;
+	/*font-weight:bold;*/
+	}
+	
+	
+.entete
+{
+	background:url(images/cadre_admin_entete_web.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+}	
+
+.corps
+{
+	background:url(images/cadre_admin_corps_web.png);
+	background-repeat: repeat-y;
+}	
+
+.pieds
+{
+	background:url(images/cadre_admin_pieds_web.png);
+	background-repeat:no-repeat;
+	font-size:small;
+}	
+
+a:link, a:visited
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #F60;
+	text-decoration: none;
+}
+
+a:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #F60;
+	text-decoration: overline underline;
+}
+.input 
+{
+	 color:#039;
+     background-color: #FFE6A7; /*#FFEFD4;*/
+     font-size:12px;
+     font-family:arial;
+	 font-weight:600;
+	 font-style:italic;
+	 border-bottom:#CCC inset;
+	 border-top:#CCC thin;
+	 border-left:#CCC thin;
+	}
+	

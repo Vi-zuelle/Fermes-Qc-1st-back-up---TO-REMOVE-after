@@ -1,0 +1,172 @@
+dl.encadre p{}
+
+dl.encadre{
+	border:solid 1px #9fb5c2;background:#dde8f0 url("images/Bg_TXT.gif") repeat-x top center;
+	padding:5px 0;
+	z-index:1;
+	}
+	
+dl.encadre dd ul{
+	margin-left: 12px;
+	}
+	
+dl.encadre dd ol{
+	margin-left: 20px;
+	}
+	
+dl.encadre dt{
+	font-weight: bold;
+	padding:0 20px 5px 23px;
+	background: transparent url("images/points_note.gif") no-repeat scroll left 3px;
+	z-index:10;
+	}
+	
+dl.encadre dd {
+	padding:0 20px 0 23px;
+	}
+
+/*Menu D�roulant************************************/
+.menuderoulant{  
+	float : left;
+	clear:both;
+	width:100%;
+	/*width: 980px;*/
+	font-size:12px;	
+	/*background-color:#F90;*/
+	}
+	
+.menuderoulant a{ƒ
+	text-decoration:none;
+	font-family : Arial;
+	font-size: 1.08em;
+	color: #474747;
+	display: block;
+	} 
+	
+.menuderoulant a:hover{
+	color: #f90;
+	}
+	
+.menuderoulant ul{
+	list-style-type : none;
+	margin-top: 18px;
+	margin-left: 6px;
+	}
+	
+.menuderoulant span{
+	height: 23px;
+	}
+	
+.menuderoulant span a{
+	height: 23px;
+	t
+	}
+	
+.menuderoulant li.niv1 {
+	float:left;
+	position: relative;
+	padding: 0 10px 0 10px;
+	background: url("images/nav_dots.gif") no-repeat left;
+	z-index: 1;
+	}
+	
+.menuderoulant li.niv1:first-child {
+	background: none;
+	}
+	
+.menuderoulant li div{
+	display: none;
+	position: absolute;
+	top: 23px;
+	left: 3px;
+	z-index: 1;
+	}
+	
+.menuderoulant li.niv1:hover div, .menuderoulant li.over div{ 
+	font-size:0.9em;
+	display: block;
+	position: absolute;
+	border: solid 1px #888888;
+	background: white url("images/degrade_bas.gif") repeat-x bottom;
+	padding: 10px;
+	color:#903;
+	}
+	
+.menuderoulant li.niv1 ul.boiteniv1 {
+	line-height:1;
+	display: block
+	; float: left;
+	width: 180px;
+	clear: none;
+	height: auto;
+	border-left : solid 1px #BBBBBB;
+	padding: 0 0 15px 17px;
+	margin-top:0;
+	list-style-image:url("images/Puce_nav.gif");
+	}
+	
+.menuderoulant li.niv1 ul.boiteniv1:first-child {
+	border-left: none;
+	}
+	
+.menuderoulant li.niv1 ul.premierelement{
+	padding-left:0;
+	padding-right:17px;
+	}
+	
+.menuderoulant li.niv1 ul.boiteniv1 li{
+	padding-bottom:5px;
+	margin-left:0;
+	padding-left:0;
+	}
+	
+.menuderoulant .niv2 {
+	font-weight: bold;
+	padding-right: 10px;
+	list-style-image:none;
+	}
+	
+.menuderoulant .niv2 ul{
+	margin-top:10px;
+	list-style-image:url("images/Puce_nav.gif");
+	padding-left:17px;
+	}
+	
+.menuderoulant .niv2 li{
+	font-weight: normal;
+	}	
+	
+.menuderoulant li span{
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+	margin-left: -8px;
+	margin-right: -8px;
+	}
+	
+.menuderoulant li span a{
+	text-decoration:none;
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: -10px;
+	text-decoration:none;
+	}
+	
+.menuderoulant li.actif a{
+	color: White;
+	}
+	
+.menuderoulant li.niv1 ul.boiteniv1 a:link{ /*  sous menu */
+	color: #474747;
+	background: none;
+	border:none;
+	color: #f96F;
+	text-decoration:none;
+	}
+
+.menuderoulant ul.boiteniv1 a:hover{ /*  sous menu */
+	color: #f96F;
+	text-decoration:none;
+	}
+
+/*FIN menu d�roulant*/
+
