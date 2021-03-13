@@ -13,6 +13,8 @@ Stylesheet Guide
 	- Forms
   - Buttons
   - Ordered list in paragraph
+  - Flex
+  - Padding
 
 2. Header
 	01. Top Header Line
@@ -179,11 +181,6 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
-.img-padding-card {
-  padding: 4% 8%;
-}
-
-
 a.dinfo {
    position: relative;
    color: black;
@@ -293,14 +290,28 @@ body {
 		font-weight: 400;
   }
 
-  .p-card-24 {
-    font-size: 24px;
-    padding: 8%;
+  .paragraph {
+    font-size: 20px;
+    /* padding: 8%; */
+    /* margin: 0; */
   }
 
-  .p-general-24 {
+  /* .p-general-24 {
+    font-size: 20px;
+
+  } */
+
+  .h2 {
+    font-size: 32px;
+  }
+
+  .h3 {
     font-size: 24px;
-    padding: 0 4%;
+  }
+
+  .o-u-list {
+    font-weight: 400;
+    line-height: 1.65;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -354,7 +365,8 @@ body {
 				backface-visibility: hidden;
 	}
 
-		.single-image img { display: block; }
+  .single-image img { display: block; }
+
 
 	/* -------------------------------------------------- */
 	/*	Dividers
@@ -620,16 +632,66 @@ body {
 				text-shadow: none;
 			}
 
+
 /* ---------------------------------------------------------------------- */
-/*	Ordered list in paragraph
+/*	Flex
 /* ---------------------------------------------------------------------- */
 
-ol.p-general-24 {
-  font-weight: 400;
-  line-height: 1.65;
+.flex {
+  display: flex;
+}
+
+.justify-content-ctr {
+  justify-content: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Spacing
+/* ---------------------------------------------------------------------- */
+
+.p-top-4 {
+  padding-top: 4%;
+}
+
+.p-bottom-4 {
   padding-bottom: 4%;
 }
 
+.p-left-4 {
+  padding-left: 4%;
+}
+
+.p-right-4 {
+  padding-right: 4%;
+}
+
+.p-top-4 {
+  padding-top: 4%;
+}
+
+.p-all-4 {
+  padding: 4%!important;
+}
+
+.p-bottom-8 {
+  padding-bottom: 8%;
+}
+
+.p-left-8 {
+  padding-left: 8%;
+}
+
+.p-right-8 {
+  padding-right: 8%;
+}
+
+.p-all-8 {
+  padding: 8%;
+}
+
+.m-0 {
+  margin: 0;
+}
 
 
 /* ---------------------------------------------------------------------- */
